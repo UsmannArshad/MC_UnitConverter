@@ -36,7 +36,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter The Kg Value Below"
+        android:text="Enter The Value Below"
         android:textColor="#6200EE"
         android:textSize="20sp"
         android:textStyle="bold"

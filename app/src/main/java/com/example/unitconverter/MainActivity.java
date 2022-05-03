@@ -23,7 +23,6 @@ private EditText edittext;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Listener worked", Toast.LENGTH_SHORT).show();
                 String kgval=edittext.getText().toString();
                 int kilogram=Integer.parseInt(kgval);
                 double pound=kilogram*2.205;
