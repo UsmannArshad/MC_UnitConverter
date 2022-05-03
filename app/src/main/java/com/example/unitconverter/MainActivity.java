@@ -31,5 +31,14 @@ private EditText edittext;
             }
         });
 
+
+    }
+    public void ConvertPound2Kg(View view)
+    {
+        String poundval=edittext.getText().toString();
+        int pound=Integer.parseInt(poundval);
+        double kilogram=pound/2.205;
+        String kg=String.format("%.2f",kilogram);
+        textview.setText("The corresponding value in kgs is "+kg);
     }
 }
